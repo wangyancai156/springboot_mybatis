@@ -18,6 +18,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+
     @RequestMapping("getUser/{id}")
     public String GetUser(@PathVariable int id) {
 
